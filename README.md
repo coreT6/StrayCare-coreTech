@@ -1,6 +1,6 @@
 # StrayCare
 A platform to report stray or lost pets, alert the nearest shelter, assign rescues, and connect rescued animals with adopters.
-Shamika :
+Shamika : 
 Simran: https://github.com/simrannnnnnnnnnnnnnnnn
 Viddhi: https://github.com/viddhitakkar
 Vinit: https://github.com/v-in-it
