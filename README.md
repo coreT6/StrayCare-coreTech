@@ -1,27 +1,12 @@
-# Stray Animal Welfare Backend (In-memory)
+# React + Vite
 
-## Overview
-This is a Node.js + Express implementation of the API contract `API_CONTRACT.md` provided. It uses in-memory storage (arrays) and exposes Swagger UI at `/api-docs`.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Setup
-Requirements: Node 16+ and npm
+Currently, two official plugins are available:
 
-Install and run:
-```bash
-cd backend_stray_api
-npm install
-npm start
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-The server runs on `http://localhost:3000` by default.
-Open API docs at: `http://localhost:3000/api-docs`
+## Expanding the ESLint configuration
 
-## Notes on authentication
-- Register a user at `POST /api/users/register`.
-- Login at `POST /api/users/login` to receive a JWT.
-- Include the header `Authorization: Bearer <token>` for protected endpoints.
-- The `PATCH /api/animals/:id/status` endpoint requires role `shelter` (or `admin`).
-
-## Deliverables
-- Place this `backend_stray_api` folder inside your GitHub repo under `/backend` and push.
-- The Swagger UI is available at `/api-docs` when running the server locally. If deployed, include the deployed `/api-docs` URL in your submission comments.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
